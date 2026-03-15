@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import Layout from '../components/layouts/Layout';
 import Button from '../components/ui/Button';
 import './About.css';
+import MeetupLocation from "../components/MeetupLocation";
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -438,6 +439,9 @@ const About = () => {
           </div>
           <div className="cta-pattern"></div>
         </section>
+      </div>
+      <div>
+        <MeetupLocation />
       </div>
     </Layout>
   );

@@ -2,6 +2,8 @@ import { useEffect, useRef } from 'react';
 import Layout from '../components/layouts/Layout';
 import { Link } from 'react-router-dom';
 import './Services.css';
+import MeetupLocation from "../components/MeetupLocation";
+
 
 const Services = () => {
   const sectionRef = useRef(null);
@@ -249,6 +251,9 @@ const Services = () => {
             </div>
           </div>
         </section>
+      </div>
+      <div>
+        <MeetupLocation />
       </div>
     </Layout>
   );

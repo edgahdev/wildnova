@@ -3,6 +3,7 @@ import Layout from '../components/layouts/Layout';
 import { Link } from 'react-router-dom';
 import './TourPackage.css';
 
+
 const TourPackage = () => {
   const sectionRef = useRef(null);
 
@@ -207,6 +208,7 @@ const TourPackage = () => {
           </div>
         </section>
       </div>
+      
     </Layout>
   );
 };

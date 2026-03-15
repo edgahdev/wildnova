@@ -6,6 +6,7 @@ import Gallery from '../components/home/Gallery';
 import PackageSlider from '../components/home/PackageSlider';
 import Testimonials from '../components/home/Testimonials';
 import '../styles/globals.css';
+import MeetupLocation from "../components/MeetupLocation";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Gallery />
       <PackageSlider />
       <Testimonials />
+      <MeetupLocation />
     </Layout>
   );
 };
