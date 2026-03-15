@@ -52,7 +52,7 @@ const Footer = () => {
             <h3 className="footer-title">Contact Us</h3>
             <ul className="contact-info">
               <li>📍 Nairobi, Kenya</li>
-              <li>📞</li>
+              <li>📞 +254 703 609 395</li>
               <li>✉️ info@wildnova.com</li>
               <li>🕒 Mon-Fri: 8AM - 6PM</li>
             </ul>
