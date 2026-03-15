@@ -302,6 +302,10 @@
     font-size: 2rem;
   }
   
+  .overview-grid {
+    grid-template-columns: 1fr;
+  }
+
   .gallery-grid {
     grid-template-columns: 1fr;
   }
@@ -311,7 +315,7 @@
   }
   
   .accommodation-image {
-    height: 250px;
+    height: 200px;
   }
   
   .faq-grid {
@@ -324,5 +328,14 @@
   
   .accommodation-amenities {
     grid-template-columns: 1fr;
+  }
+  
+  .tour-overview,
+  .itinerary-section,
+  .gallery-section,
+  .accommodation-section,
+  .inclusion-section,
+  .faq-section {
+    padding: 40px 20px;
   }
 }
