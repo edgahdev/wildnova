@@ -5,7 +5,7 @@ import ItineraryTimeline from '../../components/tours/ItineraryTimeline';
 import InclusionCard from '../../components/tours/InclusionCard';
 import BookingCTA from '../../components/tours/BookingCTA';
 import './TourPackages.css';
-
+import MeetupLocation from "../../components/MeetupLocation";
 const MombasaTours = () => {
   const sectionRef = useRef(null);
 
@@ -198,6 +198,9 @@ Embark on a 4-day safari adventure through Tsavo West, Amboseli, and Tsavo East.
         </section>
 
         <BookingCTA price="$" />
+      </div>
+      <div>
+        <MeetupLocation />
       </div>
     </Layout>
   );

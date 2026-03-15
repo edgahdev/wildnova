@@ -189,7 +189,7 @@ const Services = () => {
                   <div className="card-icon">{service.icon}</div>
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
-                  <Link to="/contact" className="card-link">
+                  <Link to="https://wa.me/254703609395?text=Hello%20Wildnova%2C%20I%20would%20like%20to%20inquire%20about%20your%20tour%20packages." className="card-link">
                     Inquire <span>→</span>
                   </Link>
                 </div>
@@ -244,7 +244,7 @@ const Services = () => {
               <p>Let our experts design the perfect safari for you</p>
               <div className="cta-buttons">
                 <Link to="/tour-packages" className="cta-btn primary">View Packages</Link>
-                <Link to="/contact" className="cta-btn secondary">Contact Us</Link>
+                <Link to="https://wa.me/254703609395?text=Hello%20Wildnova%2C%20I%20would%20like%20to%20inquire%20about%20your%20tour%20packages." className="cta-btn secondary">Contact Us</Link>
               </div>
             </div>
           </div>

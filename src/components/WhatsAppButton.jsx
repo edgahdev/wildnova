@@ -1,8 +1,13 @@
-import React from 'react';
-import './WhatsAppButton.css';
+import React from "react";
+import "./WhatsAppButton.css";
 
-const WhatsAppButton = ({ agentNumber, message }) => {
-  const whatsappLink = `https://wa.me/${agentNumber}?text=${encodeURIComponent(message)}`;
+const WhatsAppButton = () => {
+  const phoneNumber = "254703609395";
+
+  const message =
+    "Hello Wildnova, I would like to inquire about your tour packages.";
+
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <a

@@ -430,7 +430,7 @@ const About = () => {
                 <Button href="/tour-packages" variant="primary" size="lg">
                   Explore Safaris
                 </Button>
-                <Button href="/contact" variant="secondary" size="lg">
+                <Button href="https://wa.me/254703609395?text=Hello%20Wildnova%2C%20I%20would%20like%20to%20inquire%20about%20your%20tour%20packages." variant="secondary" size="lg">
                   Contact Us
                 </Button>
               </div>

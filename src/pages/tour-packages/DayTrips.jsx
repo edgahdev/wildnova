@@ -5,7 +5,7 @@ import ItineraryTimeline from '../../components/tours/ItineraryTimeline';
 import InclusionCard from '../../components/tours/InclusionCard';
 import BookingCTA from '../../components/tours/BookingCTA';
 import './TourPackages.css';
-
+import MeetupLocation from "../../components/MeetupLocation";
 const DayTrips = () => {
 
   const sectionRef = useRef(null);
@@ -244,6 +244,9 @@ const DayTrips = () => {
 
         <BookingCTA price="$60" />
 
+      </div>
+      <div>
+        <MeetupLocation />
       </div>
 
     </Layout>

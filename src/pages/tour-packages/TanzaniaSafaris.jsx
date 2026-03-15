@@ -5,6 +5,7 @@ import ItineraryTimeline from '../../components/tours/ItineraryTimeline';
 import InclusionCard from '../../components/tours/InclusionCard';
 import BookingCTA from '../../components/tours/BookingCTA';
 import './TourPackages.css';
+import MeetupLocation from "../../components/MeetupLocation";
 
 const TanzaniaSafaris = () => {
 
@@ -180,6 +181,9 @@ accommodation: "Luxury safari lodges and tented camps"
 
         <BookingCTA price="$900" />
 
+      </div>
+      <div>
+        <MeetupLocation />
       </div>
     </Layout>
   );

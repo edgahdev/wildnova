@@ -88,7 +88,7 @@ const Header = () => {
             </div>
           </div>
           
-          <Link to="/contact" className="mobile-contact" onClick={() => setIsMenuOpen(false)}>
+          <Link to="https://wa.me/254703609395?text=Hello%20Wildnova%2C%20I%20would%20like%20to%20inquire%20about%20your%20tour%20packages." className="mobile-contact" onClick={() => setIsMenuOpen(false)}>
             Contact Us
           </Link>
         </div>
