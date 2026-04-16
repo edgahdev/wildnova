@@ -1,0 +1,21 @@
+.map-actions {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.directions-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #C6A43F;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.directions-btn:hover {
+  background: #b38f2e;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(198, 164, 63, 0.3);
+}

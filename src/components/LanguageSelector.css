@@ -1,0 +1,23 @@
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.language-selector select {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #C6A43F;
+  background-color: white;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.language-selector select:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 5px 15px rgba(198, 164, 63, 0.2);
+}

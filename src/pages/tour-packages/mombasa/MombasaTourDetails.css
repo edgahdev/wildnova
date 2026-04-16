@@ -1,0 +1,113 @@
+/* =========================
+   PAGE WRAPPER
+========================= */
+.tour-details {
+  width: 100%;
+  padding: 20px 0;
+  background: #fff;
+}
+
+/* =========================
+   HERO IMAGE FIX (VERY IMPORTANT)
+========================= */
+.tour-hero-image {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 18px;
+  margin-bottom: 25px;
+}
+
+.tour-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* =========================
+   TITLE
+========================= */
+.tour-details h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+/* =========================
+   PARAGRAPHS
+========================= */
+.tour-details p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+/* =========================
+   GALLERY SECTION
+========================= */
+.tour-gallery {
+  margin-top: 40px;
+}
+
+.gallery-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery-item {
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* =========================
+   BOOKING BUTTON
+========================= */
+.book-btn {
+  margin-top: 30px;
+  padding: 14px 30px;
+  background: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background: #e65c00;
+}
+
+/* =========================
+   MOBILE FIX
+========================= */
+@media (max-width: 768px) {
+  .tour-hero-image {
+    height: 250px;
+  }
+
+  .tour-details h1 {
+    font-size: 24px;
+  }
+}

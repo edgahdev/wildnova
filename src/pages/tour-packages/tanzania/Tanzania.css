@@ -1,0 +1,127 @@
+/* =========================
+   GLOBAL TOUR DETAILS STYLE
+========================= */
+
+.tour-details {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: "Arial", sans-serif;
+  color: #222;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+/* dark overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero h1 {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  padding: 0 20px;
+  text-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+}
+
+/* =========================
+   BACKGROUND IMAGES
+   (MAKE SURE FILE NAMES MATCH)
+========================= */
+
+.tanzania-hero-ngorongoro {
+  background-image: url("/images/tanzania/ngorongoro-crater-safari.jpg");
+}
+
+.tanzania-hero-manyara {
+  background-image: url("/images/tanzania/manyara-ngorongoro-tarangire.jpg");
+}
+
+.tanzania-hero-serengeti {
+  background-image: url("/images/tanzania/serengeti-manyara-ngorongoro.jpg");
+}
+
+/* =========================
+   CONTENT SECTION
+========================= */
+
+.content {
+  max-width: 950px;
+  margin: auto;
+  padding: 50px 20px;
+  line-height: 1.8;
+}
+
+.content h2 {
+  font-size: 28px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #1b5e20;
+  border-left: 5px solid #1b5e20;
+  padding-left: 12px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+/* =========================
+   ITINERARY STYLE (if used)
+========================= */
+
+.content p strong {
+  color: #000;
+}
+
+/* =========================
+   BUTTON / BOOKING CTA spacing
+========================= */
+
+.booking-cta {
+  margin-top: 40px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .content {
+    padding: 30px 15px;
+  }
+
+  .content h2 {
+    font-size: 22px;
+  }
+}

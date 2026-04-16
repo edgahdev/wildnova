@@ -1,0 +1,45 @@
+.privacy-page {
+  padding: 100px 20px 60px;
+  background: #faf7f2;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.privacy-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.privacy-updated {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #C6A43F;
+}
+
+section p {
+  line-height: 1.7;
+  color: #444;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}

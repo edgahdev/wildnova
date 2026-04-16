@@ -1,0 +1,33 @@
+.tour-details {
+  width: 100%;
+}
+
+.hero {
+  height: 300px;
+  background: url('/images/package-nairobi.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 32px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px 20px;
+}
+
+.content {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.content h3 {
+  margin-top: 20px;
+}
+
+.content ul {
+  margin-top: 10px;
+}
