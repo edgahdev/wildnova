@@ -3,13 +3,15 @@ import BookingCTA from '../../../components/tours/BookingCTA';
 import MeetupLocation from "../../../components/MeetupLocation";
 import './MombasaTourDetails.css';
 
-export default function MombasaFourDaysTsavoAmboseli() {
+export default function ThreeDaysMaasaiMaraByFlightFromDiani() {
   return (
     <Layout>
       <div className="tour-details">
 
         <div className="hero">
-          <h1>4 Days Tsavo East, Amboseli & Saltlick Safari</h1>
+          <h1>3 Days Maasai Mara Safari by Flight 
+            
+          </h1>
         </div>
 
         <div className="content">
@@ -17,46 +19,38 @@ export default function MombasaFourDaysTsavoAmboseli() {
           <h2>Safari Overview</h2>
 
           <p>
-            This 4-day safari delivers a carefully balanced journey through three of Kenya’s most iconic wildlife regions — Tsavo East National Park, Saltlick Lodge in Taita Hills Wildlife Sanctuary, and Amboseli National Park. It is designed for travelers who want a rich safari experience in a short time without missing the diversity of Kenya’s southern circuit.
+            This 3-day Maasai Mara safari by flight offers a seamless and luxurious escape from the white sandy beaches of Diani to Kenya’s most celebrated wildlife reserve. Designed for travelers who want to maximize their safari experience within a short time, this package eliminates long road journeys and replaces them with a scenic flight directly into the heart of the Maasai Mara.
           </p>
 
           <p>
-            Each destination offers a completely different ecosystem. Tsavo East introduces vast open savannahs, red-dust landscapes, and large herds of elephants famously known as “red elephants” due to the iron-rich soil they dust themselves with. The park is also home to lions, giraffes, zebras, buffaloes, and numerous bird species, making it a strong starting point for wildlife immersion.
+            The Maasai Mara National Reserve is world-renowned for its exceptional wildlife density and is home to the iconic Big Five — lions, elephants, buffaloes, leopards, and rhinos. The reserve also hosts the Great Migration (seasonal), one of the most spectacular wildlife events on Earth, where thousands of wildebeest and zebras cross the Mara River in dramatic fashion.
           </p>
 
           <p>
-            From Tsavo East, the journey continues into the elevated Saltlick Lodge, one of Kenya’s most unique safari accommodations. Built on stilts above a natural waterhole, the lodge provides uninterrupted wildlife viewing where animals come to drink just below your room and observation decks. This creates a rare opportunity to observe wildlife behavior at very close range throughout the day and night.
+            From vast open savannahs dotted with acacia trees to riverine forests and rolling plains, the Mara offers one of Africa’s richest ecosystems. Game drives here provide unmatched opportunities to witness predator-prey interactions, large herds of grazing animals, and breathtaking landscapes ideal for photography.
           </p>
 
           <p>
-            The final destination is Amboseli National Park, one of Africa’s most photographed safari locations. Known for its massive elephant herds and iconic views of Mount Kilimanjaro, Amboseli offers breathtaking scenery combined with rich wildlife density. The park’s swamp-fed ecosystem ensures year-round animal activity, making it one of the best places for close elephant encounters in the world.
-          </p>
-
-          <p>
-            This safari is ideal for travelers seeking a mix of adventure, comfort, photography opportunities, and unforgettable wildlife encounters across Kenya’s most scenic southern parks.
+            This safari is perfect for honeymooners, beach holidaymakers, and travelers seeking a high-impact safari experience with comfort, efficiency, and unforgettable wildlife encounters.
           </p>
 
           <h2>Itinerary</h2>
 
           <p>
-            Day 1: Your journey begins with an early morning pickup and departure towards Tsavo East National Park. Upon arrival, you will immediately embark on a game drive across the vast red plains where wildlife roams freely in an untouched natural environment. You will explore key areas such as the Galana River, a vital water source that attracts elephants, hippos, crocodiles, and a variety of birdlife. The afternoon game drive continues deeper into the park, offering chances to spot lions resting under acacia trees, herds of zebras grazing, and giraffes moving gracefully across the horizon. In the evening, you will proceed to your lodge for dinner and overnight stay surrounded by the sounds of the African wilderness.
+            Day 1: Your safari begins with a transfer from your hotel in Diani Beach to Ukunda Airstrip for your scheduled morning flight to the Maasai Mara. The flight offers stunning aerial views of Kenya’s diverse landscapes, from the coastline to the Great Rift Valley. Upon arrival at the Mara airstrip, you will be met by your guide and transferred to your lodge or camp with a game drive en route. After lunch and some relaxation, you will head out for an afternoon game drive across the reserve, where you may encounter lions, elephants, giraffes, zebras, and other wildlife in their natural habitat. Return to your lodge in the evening for dinner and overnight stay.
           </p>
 
           <p>
-            Day 2: After breakfast, you will continue your safari journey towards Taita Hills Wildlife Sanctuary where Saltlick Lodge is located. Upon arrival, you will check in and experience one of Kenya’s most unique safari accommodations. The elevated design of the lodge allows uninterrupted views of a busy waterhole where elephants, buffaloes, antelopes, and warthogs gather throughout the day. You will enjoy both afternoon and evening wildlife viewing from the comfort of your room or observation deck, with floodlights illuminating animals during nighttime visits. This creates a magical and intimate wildlife experience unlike any other safari stop.
+            Day 2: This is a full day dedicated to exploring the Maasai Mara. After an early breakfast, you will depart with packed lunch boxes for an extended game drive across different sections of the reserve. This allows you to maximize wildlife viewing and explore areas known for high predator activity. Depending on the season, you may witness the Great Migration or observe dramatic river crossings. You will also visit the Mara River, home to hippos and crocodiles. Throughout the day, expect close encounters with a wide variety of wildlife and exceptional photography opportunities. Return to the lodge in the evening for dinner and overnight.
           </p>
 
           <p>
-            Day 3: After an early breakfast, you will depart for Amboseli National Park, arriving in time for lunch at your lodge. In the afternoon, you will head out for a game drive across Amboseli’s open plains and swamp areas. The highlight of this park is its large elephant herds that often move across the landscape with Mount Kilimanjaro as a dramatic backdrop. You will also encounter lions, cheetahs, hyenas, giraffes, zebras, and an impressive variety of bird species. The combination of wildlife and scenery makes Amboseli one of the most visually stunning safari destinations in Africa.
-          </p>
-
-          <p>
-            Day 4: Your final day begins with an early morning game drive, the best time to observe active wildlife and capture stunning sunrise photography. Elephants, predators, and grazing animals are often most active during this period, offering excellent viewing opportunities. After the game drive, you will return to the lodge for breakfast before beginning your journey back. The return drive offers scenic views of the countryside, marking the end of your safari experience. You will arrive in the afternoon with unforgettable memories of Kenya’s southern circuit.
+            Day 3: Begin your final day with an early morning game drive, the best time to spot active predators and enjoy the beauty of the savannah at sunrise. After the game drive, return to the lodge for breakfast before transferring to the airstrip for your return flight to Diani. Upon arrival, you will be transferred back to your hotel, marking the end of your unforgettable Maasai Mara safari experience.
           </p>
 
         </div>
 
-        <BookingCTA price="$900" />
+        <BookingCTA price="$1,200" />
       </div>
 
       <MeetupLocation />
